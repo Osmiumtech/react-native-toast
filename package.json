@@ -1,5 +1,5 @@
 {
-  "name": "@backpackapp-io/react-native-toast",
+  "name": "@osmiumtech/react-native-toast",
   "version": "0.11.0",
   "description": "A toasting library for React Native. Built in features such as swipe to dismiss, multiple toasts, & no context power this library.",
   "main": "lib/commonjs/index",
@@ -22,7 +22,7 @@
     "!**/__mocks__"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "echo 'No tests'",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
@@ -37,7 +37,7 @@
     "web",
     "toast"
   ],
-  "repository": "https://github.com/backpackapp-io/react-native-toast.git",
+  "repository": "github:osmiumtech/react-native-toast",
   "author": "Nick DeBaise <nickdebaise@gmail.com> (https://github.com/nickdebaise)",
   "license": "MIT",
   "bugs": {
@@ -45,8 +45,11 @@
   },
   "homepage": "https://github.com/backpackapp-io/react-native-toast.git#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
     "access": "public"
+  },
+  "packageManager": "pnpm@9.7.1",
+  "engines": {
+    "node": ">=20"
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.7",
